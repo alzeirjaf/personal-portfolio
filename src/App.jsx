@@ -27,13 +27,16 @@ const App = () => {
   }
 
   return (
-    <Layout>
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-    </Layout>
+    <>
+      <div className="background-container" />
+      <Layout>
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+      </Layout>
+    </>
   );
 };
 
